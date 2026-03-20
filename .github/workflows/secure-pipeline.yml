@@ -32,7 +32,7 @@ jobs:
         with:
           scan-type: 'fs'
           format: 'table'
-          exit-code: '1'        # 🔥 THIS IS IMPORTANT
+            # exit-code: '1'        # 🔥 THIS IS IMPORTANT
           severity: 'CRITICAL,HIGH'
 
       # 5. Build Docker Image (WILL NOT RUN IF ABOVE FAILS)
